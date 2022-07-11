@@ -1,0 +1,188 @@
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.oop.assignment3.Assignment3Tests
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 29, Errors: 0, Skipped: 0, Time elapsed: 8.521 s <<< FAILURE! - in sk.stuba.fei.uim.oop.assignment3.Assignment3Tests
+testGetMissingProductAmount  Time elapsed: 0.541 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetMissingProductAmount(Assignment3Tests.java:147)
+
+testPayForCartTwice  Time elapsed: 0.055 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testPayForCartTwice(Assignment3Tests.java:346)
+
+testGetProductAmount  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetProductAmount(Assignment3Tests.java:135)
+
+testUpdateMissingProduct  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testUpdateMissingProduct(Assignment3Tests.java:109)
+
+testGetAllProduct  Time elapsed: 0.243 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetAllProduct(Assignment3Tests.java:51)
+
+addProductToCartRemovesFromStorage  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartRemovesFromStorage(Assignment3Tests.java:254)
+
+testDeleteMissingProduct  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteMissingProduct(Assignment3Tests.java:128)
+
+testIncrementMissingProductAmount  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testIncrementMissingProductAmount(Assignment3Tests.java:178)
+
+testAddShoppingCart201Response  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddShoppingCart201Response(Assignment3Tests.java:196)
+
+testGetMissingProductById  Time elapsed: 0.055 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetMissingProductById(Assignment3Tests.java:74)
+
+testIncrementProductAmount  Time elapsed: 0.07 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testIncrementProductAmount(Assignment3Tests.java:155)
+
+testPayForMissingCart  Time elapsed: 0.054 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testPayForMissingCart(Assignment3Tests.java:335)
+
+testUpdateProduct  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testUpdateProduct(Assignment3Tests.java:82)
+
+testAddProduct201Response  Time elapsed: 0.04 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<200>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:410)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddProduct201Response(Assignment3Tests.java:43)
+
+addProductToCartMissingProduct  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartMissingProduct(Assignment3Tests.java:287)
+
+testAddShoppingCart  Time elapsed: 0.043 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddShoppingCart(Assignment3Tests.java:191)
+
+testGetMissingShoppingCartById  Time elapsed: 0.04 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetMissingShoppingCartById(Assignment3Tests.java:212)
+
+testDeleteMissingShoppingCartById  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteMissingShoppingCartById(Assignment3Tests.java:234)
+
+testPayForShoppingCart  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testPayForShoppingCart(Assignment3Tests.java:312)
+
+testAddProduct  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testAddProduct(Assignment3Tests.java:38)
+
+testGetProductById  Time elapsed: 0.041 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetProductById(Assignment3Tests.java:63)
+
+addProductToCartExistingProduct  Time elapsed: 0.051 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartExistingProduct(Assignment3Tests.java:301)
+
+addProductToCart  Time elapsed: 0.051 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCart(Assignment3Tests.java:243)
+
+testDeleteShoppingCartById  Time elapsed: 0.043 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteShoppingCartById(Assignment3Tests.java:221)
+
+addProductToCartPayedCart  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartPayedCart(Assignment3Tests.java:361)
+
+testDeleteProduct  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.lambda$addProduct$13(Assignment3Tests.java:414)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:411)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProduct(Assignment3Tests.java:384)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testDeleteProduct(Assignment3Tests.java:119)
+
+addProductToCartMissingCart  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartMissingCart(Assignment3Tests.java:294)
+
+testGetShoppingCartById  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.testGetShoppingCartById(Assignment3Tests.java:201)
+
+addProductToCartNotEnoughProduct  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.AssertionError: Range for response status value 404 expected:<SUCCESSFUL> but was:<CLIENT_ERROR>
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:429)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addCart(Assignment3Tests.java:423)
+	at sk.stuba.fei.uim.oop.assignment3.Assignment3Tests.addProductToCartNotEnoughProduct(Assignment3Tests.java:267)
+
